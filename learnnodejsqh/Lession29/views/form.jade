@@ -1,0 +1,18 @@
+extends template
+
+block container 
+    form(method="POST" action="quantuan.info")
+        table
+            tr
+                td
+                    | Ho va ten
+                td
+                    input(type="text" name="txName")
+            tr
+                td
+                    | Tuoi
+                td 
+                    input(type="number" name="txtAge")
+            tr
+                td(colspan="2s")
+                    input(type="submit" name="btnSend" value="Gui")
