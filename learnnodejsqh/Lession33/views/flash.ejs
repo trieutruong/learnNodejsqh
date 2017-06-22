@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<% if(msg) { %>
+		<% msg.forEach (function (item) { %>
+			<h1><%= item %></h1>
+		<% }); %>
+	<% } %>
+</body>	
+</html>
